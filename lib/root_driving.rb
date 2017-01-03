@@ -1,5 +1,7 @@
-require "root_driving/version"
+require "parser.rb"
+require "drivers.rb"
 
 module RootDriving
-  # Your code goes here...
+  # drivers = Parser.parse(ARGV[0])
+  # drivers.to_s
 end
